@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Strinteg Corporation//SASHTO 2026 Glow Party//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sashto2026-glowparty@strinteg.com
+DTSTAMP:20260817T120000Z
+DTSTART;TZID=America/New_York:20260822T180000
+DTEND;TZID=America/New_York:20260822T220000
+SUMMARY:SASHTO 2026 Pickleball Glow Party
+LOCATION:PKL Park\, 78 Mayberry St\, Greenville\, SC 29601
+DESCRIPTION:Pickleball tournament\, live 90s band\, food and drinks. Hosted by Strinteg Corporation\, Pickleball Title Sponsor. Non-players attend at no charge. Directions: https://sashto-glow.onrender.com
+URL:https://sashto-glow.onrender.com
+BEGIN:VALARM
+TRIGGER:-PT90M
+ACTION:DISPLAY
+DESCRIPTION:Glow Party starts at 6:00 PM - PKL Park
+END:VALARM
+END:VEVENT
+END:VCALENDAR

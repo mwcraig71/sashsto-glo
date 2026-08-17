@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: sashto-glow-party
+    runtime: static
+    staticPublishPath: .
+    buildCommand: ""
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*.webp
+        name: Cache-Control
+        value: public, max-age=604800
+      - path: /*.jpg
+        name: Cache-Control
+        value: public, max-age=604800
+      - path: /*.png
+        name: Cache-Control
+        value: public, max-age=604800

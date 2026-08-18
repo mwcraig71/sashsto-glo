@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SASHTO 2026 Pickleball Glow Party | PKL Park, Greenville</title>
-<meta name="description" content="Saturday, August 22, 6:00-10:00 PM at PKL Park, 78 Mayberry St, Greenville. Pickleball, live 90s band, food and drinks. Directions, parking, and the Swamp Rabbit Trail walking route.">
+<meta name="description" content="Saturday, August 22, 6:00-10:00 PM at PKL Park, 78 Mayberry St, Greenville. Pickleball, live 90s band, food and drinks. Free conference shuttle from the AC Hotel every 30 minutes from 5:30 PM.">
 <link rel="canonical" href="https://sashsto-glow.onrender.com">
 <meta property="og:type" content="website">
 <meta property="og:title" content="SASHTO 2026 Pickleball Glow Party">
-<meta property="og:description" content="Saturday, August 22, 6:00-10:00 PM. PKL Park, Greenville. Pickleball, live 90s band, food and drinks. Non-players attend at no charge.">
+<meta property="og:description" content="Saturday, August 22, 6:00-10:00 PM. PKL Park, Greenville. Free shuttle from the AC Hotel every 30 minutes from 5:30 PM. Non-players attend at no charge.">
 <meta property="og:url" content="https://sashsto-glow.onrender.com">
 <meta property="og:image" content="https://sashsto-glow.onrender.com/map.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -69,6 +69,8 @@
   /* route cards */
   .routes{display:grid;gap:16px;margin-top:22px}
   @media(min-width:620px){.routes{grid-template-columns:1fr 1fr}}
+  .route.shuttle{border-top-color:var(--orange);background:#FCF6F4}
+  @media(min-width:620px){.route.shuttle{grid-column:1 / -1}}
   .route{border:1px solid var(--line);border-top:5px solid var(--orange);padding:20px}
   .route.drive{border-top-color:var(--navy)}
   .route h3{font-size:19px;margin-bottom:4px}
@@ -96,7 +98,7 @@
     <div class="kicker">Strinteg Corporation &middot; Pickleball Title Sponsor</div>
     <h1>SASHTO 2026<span>Glow Party</span></h1>
     <div class="when">Saturday, August 22 &middot; 6:00&ndash;10:00 PM</div>
-    <div class="where">PKL Park &middot; 78 Mayberry Street, Greenville, SC 29601</div>
+    <div class="where">PKL Park &middot; 78 Mayberry Street, Greenville, SC 29601<br>Free conference shuttle from the AC Hotel, every 30 minutes from 5:30 PM</div>
     <div class="actions">
       <a class="btn btn-primary" href="#directions">Get Directions</a>
       <a class="btn btn-ghost" href="glow-party.ics">Add to Calendar</a>
@@ -113,6 +115,7 @@
       <div class="fact"><dt>Where</dt><dd>PKL Park<small>78 Mayberry Street, Greenville, SC 29601 &middot; 1.1 miles from the host hotels</small></dd></div>
       <div class="fact"><dt>Cost</dt><dd>Non-players attend at no charge<small>Tournament entry is $50 per player, registered through SASHTO conference registration.</small></dd></div>
       <div class="fact"><dt>Attire</dt><dd>Glow-friendly<small>Light colors and neon. Court shoes if you plan to play.</small></dd></div>
+      <div class="fact"><dt>Shuttle</dt><dd>Free conference shuttle from the AC Hotel<small>Every 30 minutes from 5:30 PM. Last departure from the AC Hotel at 9:00 PM. Return trips run until everyone is back downtown.</small></dd></div>
       <div class="fact"><dt>Parking</dt><dd>Free on-site parking<small>Rideshare drop-off at the Mayberry Street gate.</small></dd></div>
     </dl>
   </div>
@@ -121,17 +124,22 @@
 <section id="directions">
   <div class="wrap">
     <h2>Getting There</h2>
-    <p class="lead">PKL Park sits just west of Unity Park. Two good options from the SASHTO host hotels on South Main Street.</p>
+    <p class="lead">PKL Park sits just west of Unity Park, a mile from the SASHTO host hotels. The conference runs a free shuttle, and the walk along the river is a good one if you would rather stretch your legs.</p>
     <figure>
       <picture>
         <source media="(max-width:640px)" srcset="map-sm.webp" type="image/webp">
         <source srcset="map.webp" type="image/webp">
         <img class="mapimg" src="map.jpg" alt="Map showing the walking route along the Swamp Rabbit Trail and the driving route from the SASHTO host hotels to PKL Park at 78 Mayberry Street, Greenville." width="1600" height="1081" loading="lazy" decoding="async">
       </picture>
-      <figcaption>Walking route in orange along the Swamp Rabbit Trail; driving route in navy via South Academy Street. Basemap &copy; OpenStreetMap contributors, &copy; CARTO.</figcaption>
+      <figcaption>Free shuttle from the AC Hotel; walking route in gray along the Swamp Rabbit Trail; driving route in navy via South Academy Street. Basemap &copy; OpenStreetMap contributors, &copy; CARTO.</figcaption>
     </figure>
 
     <div class="routes">
+      <div class="route shuttle">
+        <h3>Take the Conference Shuttle</h3>
+        <div class="meta">Every 30 min &middot; from 5:30 PM &middot; no charge</div>
+        <p>SASHTO runs a free shuttle from the <strong>AC Hotel Greenville</strong>. Departures every thirty minutes beginning at 5:30 PM, with the last outbound run at 9:00 PM. Return trips keep going until everyone who wants a ride is back downtown &mdash; no need to plan the trip home.</p>
+      </div>
       <div class="route walk">
         <h3>Walk the Swamp Rabbit Trail</h3>
         <div class="meta">1.1 mi &middot; 20&ndash;25 min &middot; flat</div>
@@ -147,7 +155,7 @@
     </div>
 
     <div class="note">
-      <strong>Heading back after 10:00 PM?</strong> The trail is unlit through stretches of Unity Park. Plan on a rideshare for the return leg &mdash; roughly five minutes and under fifteen dollars back to South Main.
+      <strong>Getting back:</strong> the shuttle runs return trips from PKL Park until everyone who wants a ride is downtown. If you walked out, take the shuttle back &mdash; the trail is unlit through stretches of Unity Park.
     </div>
   </div>
 </section>

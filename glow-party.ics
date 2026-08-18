@@ -10,7 +10,7 @@ DTSTART;TZID=America/New_York:20260822T180000
 DTEND;TZID=America/New_York:20260822T220000
 SUMMARY:SASHTO 2026 Pickleball Glow Party
 LOCATION:PKL Park\, 78 Mayberry St\, Greenville\, SC 29601
-DESCRIPTION:Pickleball tournament\, live 90s band\, food and drinks. Hosted by Strinteg Corporation\, Pickleball Title Sponsor. Non-players attend at no charge. Directions: https://sashsto-glow.onrender.com
+DESCRIPTION:Pickleball tournament\, live 90s band\, food and drinks. Hosted by Strinteg Corporation\, Pickleball Title Sponsor. Non-players attend at no charge. Free conference shuttle from the AC Hotel every 30 minutes starting 5:30 PM\, last outbound 9:00 PM\, returns until everyone is back. Directions: https://sashsto-glow.onrender.com
 URL:https://sashsto-glow.onrender.com
 BEGIN:VALARM
 TRIGGER:-PT90M
